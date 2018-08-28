@@ -3,7 +3,6 @@ function obfuscate(word){
     var finalWord = ""
     for(i = 0; i < word.length; i++){
         if(word[i] === "a"){
-        console.log(paaas);
           finalWord += 4;
         } else if(word[i] === "e"){
             finalWord += 3;
